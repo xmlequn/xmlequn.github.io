@@ -50,17 +50,6 @@
 		  <h1 class="header-author"><a href="/">华侨乐群-2019</a></h1>
 		</hgroup>
 		
-		<p id="hitokoto">:D 获取中...</p>
-		<script>
-		  fetch('https://v1.hitokoto.cn')
-		    .then(response => response.json())
-		    .then(data => {
-		      const hitokoto = document.getElementById('hitokoto')
-		      hitokoto.innerText = data.hitokoto
-		    })
-		    .catch(console.error)
-		</script>
-		
 
 		<nav class="header-menu">
 			<ul>
@@ -139,8 +128,6 @@
 			<hgroup>
 			  <h1 class="header-author js-header-author">华侨乐群-2019</h1>
 			</hgroup>
-			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>true<i class="icon icon-quo-right"></i></p>
 			
 			
 			
